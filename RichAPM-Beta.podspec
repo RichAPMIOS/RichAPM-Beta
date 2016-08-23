@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'RichAPM-Beta/**/*'
+  s.source_files = 'Pod/**/*'
   s.preserve_paths = "Pod"
   s.vendored_frameworks =  "Pod/RichAPM.framework"
   s.frameworks ="SystemConfiguration","CoreTelephony","CoreData"
