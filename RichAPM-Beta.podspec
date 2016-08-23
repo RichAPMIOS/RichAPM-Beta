@@ -10,9 +10,8 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/RichAPMIOS/RichAPM-Beta'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'CHlCooker' => '1349574241@qq.com' }
-  s.source           = { :git => 'https://github.com/<GITHUB_USERNAME>/RichAPM-Beta.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
+  s.source           = { :git => 'https://github.com/RichAPMIOS/RichAPM-Beta.git', :tag => s.version.to_s }
+  
   s.ios.deployment_target = '8.0'
   s.preserve_paths = "Pod"
   s.vendored_frameworks =  "Pod/RichAPM.framework"
