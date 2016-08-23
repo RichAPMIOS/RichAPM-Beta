@@ -16,8 +16,8 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'RichAPM-Beta/**/*'
-  s.preserve_paths = "RichAPM-Beta"
-  s.vendored_frameworks =  "RichAPM-Beta/RichAPM.framework"
+  s.preserve_paths = "Pod"
+  s.vendored_frameworks =  "Pod/RichAPM.framework"
   s.frameworks ="SystemConfiguration","CoreTelephony","CoreData"
   s.libraries = "z","stdc++"
   s.pod_target_xcconfig = {"OTHER_LDFLAGS" => "-ObjC",
