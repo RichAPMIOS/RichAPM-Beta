@@ -8,6 +8,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'http://www.richapm.com'
   s.license          = { :type => 'Copyright', :text => '© 2015 RichAPM.com' }
   s.author           = { 'RichAPM' => 'changhongliang@richinfo.cn' }
+  s.social_media_url = 'https://twitter.com/changhongliang'
   s.source           = { :git => 'https://github.com/RichAPMIOS/RichAPM-Beta.git', :tag => s.version.to_s }
   s.ios.deployment_target = '7.0'
   s.preserve_paths = "Pod"
